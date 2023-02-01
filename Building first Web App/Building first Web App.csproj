@@ -5,8 +5,4 @@
     <RootNamespace>Building_first_Web_App</RootNamespace>
   </PropertyGroup>
 
-  <ItemGroup>
-    <None Include="wwwroot\index.html" />
-  </ItemGroup>
-
 </Project>
