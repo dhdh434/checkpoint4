@@ -15,12 +15,14 @@ namespace Building_first_Web_App.controllers
             return View();
         }
 
+        // get controller
         [HttpGet]
         public IActionResult grade()
         {
             return View();
         }
 
+        // Post controller
         [HttpPost]
         public IActionResult grade(gradeModel model)
         {

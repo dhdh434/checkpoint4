@@ -6,8 +6,12 @@ using System.Threading.Tasks;
 
 namespace Building_first_Web_App.models
 {
+    //create a class for the grade input
     public class gradeModel
     {
+        // declare some variables and give them get and set method
+        // put some range controls to make it from 0-100
+
         [Range(0, 100)]
         public string assignments { get; set; }
         [Range(0,100)]
