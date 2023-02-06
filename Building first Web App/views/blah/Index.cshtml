@@ -2,58 +2,19 @@
     For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 *@
 @{
+    ViewData["Title"] = "The Index page";
 }
 
-<!DOCTYPE html>
-<html>
-<head>
-    <!--import and create the titles-->
-    <meta charset="utf-8" />
-    <title>My Website!</title>
-    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="css/default.css" rel="stylesheet" />
-    <link rel="icon" type="image/jpg" href="img/gamingDog.jpg" />
+<!--header and picture-->
+<h1>David</h1>
+<img src="img/meAndHorse.JPG" />
 
-</head>
-<body>
-    <!--header and picture-->
-    <h1>David</h1>
-    <img src="img/meAndHorse.JPG" />
+<!--add a paragraph and a list-->
+<p>I hope to learn about some more coding aspects in this class.  I also hope to enjoy coding as I go through this class. I also hope for an A as well.</p>
+<ul>
+    <li>software devoloper</li>
+    <li>data analyst</li>
+    <li>AI devoloper</li>
+</ul>
 
-    <!--add a paragraph and a list-->
-    <p>I hope to learn about some more coding aspects in this class.  I also hope to enjoy coding as I go through this class. I also hope for an A as well.</p>
-    <ul>
-        <li>software devoloper</li>
-        <li>data analyst</li>
-        <li>AI devoloper</li>
-    </ul>
 
-    <!--grade calculator with form and inputs-->
-    <h2>Grade Calculator</h2>
-    <h5>Please input the percentages for the following sections:</h5>
-    <h6>enter as a decimal (ex. 96% would be typed as 0.96)</h6>
-    <form>
-        <label>Assignments:</label>
-        <input id="as" /><br />
-        <label>Group Projects:</label>
-        <input id="gp" /><br />
-        <label>Quizes:</label>
-        <input id="q" /><br />
-        <label>Midterm Exam:</label>
-        <input id="me" /><br />
-        <label>Final Exam:</label>
-        <input id="fe" /><br />
-        <label>INTEX:</label>
-        <input id="in" /><br />
-        <input id="btnsend" type="button" value="submit this thang" /><br />
-        <label>Letter Grade:</label>
-        <p><span id='output'></span></p><br /><br />
-    </form>
-
-    <!--javascript-->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-    <script src="lib/jquery/jquery-3.6.3.min.js"></script>
-    <script src="js/fanmail.js"></script>
-</body>
-
-</html>

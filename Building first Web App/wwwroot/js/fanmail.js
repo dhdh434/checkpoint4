@@ -7,9 +7,9 @@
 //create a function to calculate the grade
 $("#btnsend").click(function () {
     var grade;
-    grade = ((parseFloat($("#as").val())) * 0.5) + ((parseFloat($("#gp").val())) * 0.1) +
-        ((parseFloat($("#q").val())) * 0.1) + ((parseFloat($("#me").val())) * 0.1) +
-        ((parseFloat($("#gp").val())) * 0.1) + ((parseFloat($("#gp").val())) * 0.1);
+    grade = ((parseFloat($("#as").val())) / 100 * 0.5) + ((parseFloat($("#gp").val())) / 100 * 0.1) +
+        ((parseFloat($("#q").val())) / 100 * 0.1) + ((parseFloat($("#me").val())) / 100 * 0.1) +
+        ((parseFloat($("#gp").val())) / 100 * 0.1) + ((parseFloat($("#gp").val())) / 100 * 0.1);
     grade = grade.toFixed(2);
 
     //assign the correct grade letter to the correct score
